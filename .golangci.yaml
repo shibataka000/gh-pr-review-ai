@@ -1,0 +1,8 @@
+linters:
+  enable:
+    - revive
+    - gofmt
+    - goimports
+issues:
+  include:
+    - EXC0012
