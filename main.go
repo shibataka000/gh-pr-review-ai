@@ -127,7 +127,7 @@ func main() {
 		SilenceUsage:  true,
 	}
 
-	command.Flags().StringVar(&instruction, "instruction", "You are an IT expert. Review the pull request below and tell me points which should be fixed or improved if found. Write your response in Japanese.", "The prompt that provides instructions to the model about the task it should perform.")
+	command.Flags().StringVar(&instruction, "instruction", "You are an IT expert. Review the pull request below. If what should be fixed or improved are found, tell me them specifically. Write your response in Japanese.", "The prompt that provides instructions to the model about the task it should perform.")
 	command.Flags().StringVar(&modelID, "model-id", "anthropic.claude-3-5-sonnet-20240620-v1:0", "The model with which to run inference.")
 
 	if err := command.Execute(); err != nil {
