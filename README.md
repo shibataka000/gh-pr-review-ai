@@ -1,10 +1,10 @@
 # gh-pr-review-ai
 
-Review a pull request using Amazon Bedrock.
+Review a pull request using [Amazon Bedrock](https://aws.amazon.com/bedrock/).
 
 ## Requirements
 
-- GitHub CLI.
+- [GitHub CLI.](https://cli.github.com/)
 - [Configuration and credentials for AWS SDK should be configured.](https://docs.aws.amazon.com/sdkref/latest/guide/overview.html)
 - [Access to Amazon Bedrock foundation models should be added.](https://docs.aws.amazon.com/bedrock/latest/userguide/model-access-modify.html)
 
