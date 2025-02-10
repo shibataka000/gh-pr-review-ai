@@ -3,7 +3,7 @@ module github.com/shibataka000/gh-pr-review-ai
 go 1.23.0
 
 require (
-	github.com/aws/aws-sdk-go-v2 v1.35.0
+	github.com/aws/aws-sdk-go-v2 v1.36.1
 	github.com/aws/aws-sdk-go-v2/config v1.29.2
 	github.com/aws/aws-sdk-go-v2/service/bedrockruntime v1.24.2
 	github.com/cli/go-gh/v2 v2.11.2
